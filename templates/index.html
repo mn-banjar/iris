@@ -1,0 +1,26 @@
+<html>
+
+    <body>
+        <h3>Iris Species Classification</h3>
+
+        <div>
+            <form action='/predict' method="POST">
+
+                Sepal Length: <input type='text' name='sepal_length'><br>
+
+                Sepal Width: <input type='text' name='sepal_width'><br>
+
+                Petal Length: <input type='text' name='petal_length'><br>
+
+                Petal Width: <input type='text' name='petal_width'><br>
+
+                Class: {{result}} <br><br>
+
+                <input type='submit' value='Predict'>
+
+            </form>
+        </div>
+        
+    </body>
+
+</html>
